@@ -1,0 +1,340 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background: rgb(255, 255, 255);
+    color: #969696;
+}
+
+#head {
+    width: 100%;
+    height: 80px;
+    text-align: center;
+    border-bottom: 4px solid rgb(255, 254, 254);
+    background: rgb(0, 0, 0);
+    color: rgb(255, 255, 255);
+    line-height: 80px;
+    
+}
+
+.datt {
+color: rgb(255, 255, 255);
+text-align: center;
+width: 100%;
+height: 50px;
+background: black;
+border-bottom: 4px solid white;
+}
+
+#data {
+    width:100%;
+    height: 50px;
+    text-align: center;
+    background: black;
+    color: white;
+    line-height: 50px;
+}
+
+#loc {
+    width:100%;
+    height: 50px;
+    text-align: center;
+    background: black;
+    color: white;
+    line-height: 50px;
+}
+
+.loca {
+    color: rgb(255, 255, 255);
+text-align: center;
+width: 100%;
+height: 50px;
+background: black;
+border-bottom: 4px solid rgb(0, 0, 0);
+}
+
+#info {
+    width:100%;
+    height: 50px;
+    text-align: center;
+    background: rgb(255, 255, 255);
+    color: rgb(0, 0, 0);
+    line-height: 50px;
+    
+}
+
+.infoText{
+    width: 1900px;
+    height: 50px;
+    text-align: center;
+    color: black;
+    background: white;
+    border: 1px  solid black;
+    border-radius: 20px;
+    line-height: 25px;
+}
+
+.white {
+    width: 1900px;
+    background: white;
+    color: white;
+    border-bottom: 1px solid white;
+}
+.left {
+    float: left;
+    margin: 0 5px 0 5px;
+}
+
+.right {
+    float: right;
+    margin: 0 5px 0 5px;
+    top: auto;
+}
+
+.center {
+    text-align: center;
+    margin: 0 5px 0 5px;
+    top: 100px;
+}
+
+.tableArts{
+    width: 100%;
+    color: white;
+}
+
+.th {
+    width: 100%;
+    background: black;
+    padding: 0 85px;
+    display: inline;
+    text-align: center;
+    border: 1px solid white;
+    border-radius: 10px;
+    border-spacing: 10px;
+    cursor: pointer;
+    text-align: center;
+}
+
+.th:first-of-type{
+    margin-left: 10;
+    margin-right: 20;
+    padding: 0 60px;
+    
+}
+.th:last-of-type {
+    margin-right: 0px;
+    margin-left: 90px;
+    padding: 0 60px;
+}
+
+.th{
+    margin-left: 35px;
+    margin-right: 40px;
+}
+
+#dragons{
+    padding: 0 60px;
+    margin-left: 60px;
+}
+
+.container {
+    position: relative;
+    text-align: center;
+
+}
+
+.background {
+    background-image:url(https://avatars.dzeninfra.ru/get-zen_doc/1034365/pub_5c535cc1dde03600aeecdeca_5c5366bcd7871900ae83443b/scale_1200);
+  background-position: bottom;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 1000px;
+  width: 1900px;
+  z-index: -1;
+  position: relative;
+}
+
+.blur {
+    background: rgba(rgb(0, 0, 0), rgb(0, 0, 0), rgb(0, 0, 0), alpha);
+    backdrop-filter: blur(15px);
+    height: 1000px;
+    width: 100%;
+    z-index: 0;
+}
+
+.buy {
+    position: absolute;
+    color: rgb(255, 174, 0);
+    z-index: 1;
+    top: 20%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 91px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    width: 700px;
+    height: 100px;
+    text-align: 700px;
+    border: 4px solid rgb(255, 174, 0);
+    border-radius: 20px;
+}
+
+.regular {
+    position: absolute;
+    z-index: 1;
+    top: 60%;
+    left: 30%;
+    transform: translate(-50%, -50%);
+    color: rgb(0, 0, 0);
+    font-size: 25px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    background: rgb(255, 174, 0);
+    width: 300px;
+    height: 60px;
+    text-align: 300px;
+    border: 2px solid rgb(0, 0, 0);
+    border-radius: 20px;
+}
+
+.vip {
+    position: absolute;
+    z-index: 1;
+    top: 60%;
+    left: 70%;
+    transform: translate(-50%, -50%);
+    color: rgb(0, 0, 0);
+    font-size: 25px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    background: rgb(255, 174, 0);
+    width: 300px;
+    height: 60px;
+    text-align: 300px;
+    border: 2px solid rgb(0, 0, 0);
+    border-radius: 20px;
+}
+
+.reg_off {
+    position: absolute;
+    z-index: 1;
+    top: 40%;
+    left: 30%;
+    transform: translate(-50%, -50%);
+    color: rgb(0, 0, 0);
+    font-size: 25px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    width: 300px;
+    height: 150px;
+    text-align: 300px;
+    border: 2px solid rgb(0, 0, 0);
+    border-radius: 5px;
+}
+
+.vip_off {
+    position: absolute;
+    z-index: 1;
+    top: 40%;
+    left: 70%;
+    transform: translate(-50%, -50%);
+    color: rgb(0, 0, 0);
+    font-size: 25px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    width: 300px;
+    height: 150px;
+    text-align: 300px;
+    border: 2px solid rgb(0, 0, 0);
+    border-radius: 5px;
+}
+
+.footer {
+    width: 100%;
+    height: 350px;
+    text-align: center;
+    border-bottom: 4px solid rgb(255, 254, 254);
+    background: rgb(27, 27, 27);
+    color: rgb(255, 255, 255);
+    line-height: 80px;
+    z-index: 0;
+    position: absolute;
+    max-height: 350px;
+}
+
+.tab_fot {
+   width: 1800px;
+   height: 50px;
+   text-align: center;
+   color: white;
+   top: 20%;
+   position: relative;
+}
+
+.tab_fot2 {
+    width: 1800px;
+   height: 50px;
+   text-align: center;
+   color: white;
+   top: 20%;
+   position: relative;
+}
+
+.tab_fot3 {
+    width: 1800px;
+   height: 50px;
+   text-align: center;
+   color: white;
+   top: 20%;
+   position: relative;
+}
+
+.tab_fot4 {
+    width: 1800px;
+    height: 50px;
+    text-align: center;
+    color: white;
+    top: 20%;
+    position: relative;
+    border-bottom: 2px solid rgb(12, 12, 12);
+}
+
+.connect {
+    position: relative;
+    color: white;
+    margin-left: 86.5%;
+    margin-top: 25px;
+}
+
+.png {
+    background-image: url(https://cdn-icons-png.flaticon.com/512/154/154858.png);
+    background-position: bottom;
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 50px;
+  height: 50px;
+  position: relative;
+  margin-left: 95%;
+  margin-top: 10px;
+}
+
+.png2 {
+    background-image: url(https://cdn-icons-png.flaticon.com/512/1384/1384060.png);
+    background-position: bottom;
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 50px;
+  height: 50px;
+  position: relative;
+  margin-left: 89%;
+  top: -50px;
+}
+
+.png3 {
+    background-image: url(https://upload.wikimedia.org/wikipedia/commons/thumb/5/5c/Telegram_Messenger.png/800px-Telegram_Messenger.png);
+    background-position: bottom;
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 50px;
+  height: 50px;
+  position: relative;
+  margin-left: 83%;
+  top: -100px;
+}
